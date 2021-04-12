@@ -1239,6 +1239,7 @@ export default {
      * Update the SDK fields option whenever it changes from the parent.
      */
     fields: function fields(newVal) {
+      console.log("🚀 ~ file: VuetifyGoogleAutocomplete.js ~ line 1242 ~ fields ~ newVal", newVal)
       if (newVal) {
         if (typeof newVal === 'string') {
           this.setFields([newVal]);
