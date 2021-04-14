@@ -1095,6 +1095,7 @@ export default {
         'append-outer-icon': self.appendOuterIcon,
         autofocus: self.autofocus,
         'background-color': self.backgroundColor,
+        autocomplete: self.browserAutocomplete,
         'browser-autocomplete': self.browserAutocomplete,
         'clear-icon': self.clearIcon,
         clearable: self.clearable,
