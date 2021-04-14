@@ -106,7 +106,7 @@ export default {
      */
     browserAutocomplete: {
       type: String,
-      default: 'off',
+      default: '≢≢≢',
     },
     /**
      * Maps to Vuetify 'clear-icon' prop.
